@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientes",
+  "info": {
+    "name": "Cliente"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "direccion": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "usuario": {
+      "type": "string"
+    },
+    "contrasena": {
+      "type": "password"
+    }
+  }
+}

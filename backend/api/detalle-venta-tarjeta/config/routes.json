@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/detalle-venta-tarjetas",
+      "handler": "detalle-venta-tarjeta.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/detalle-venta-tarjetas/count",
+      "handler": "detalle-venta-tarjeta.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/detalle-venta-tarjetas/:id",
+      "handler": "detalle-venta-tarjeta.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/detalle-venta-tarjetas",
+      "handler": "detalle-venta-tarjeta.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/detalle-venta-tarjetas/:id",
+      "handler": "detalle-venta-tarjeta.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/detalle-venta-tarjetas/:id",
+      "handler": "detalle-venta-tarjeta.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

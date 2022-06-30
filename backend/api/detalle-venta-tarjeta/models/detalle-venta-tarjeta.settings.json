@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "detalle_venta_tarjetas",
+  "info": {
+    "name": "Detalle Venta Tarjeta"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "cantidad": {
+      "type": "biginteger"
+    },
+    "precio": {
+      "type": "biginteger"
+    },
+    "descuento": {
+      "type": "biginteger"
+    },
+    "product": {
+      "model": "product",
+      "via": "idProducts"
+    }
+  }
+}
